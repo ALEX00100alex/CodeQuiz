@@ -83,7 +83,7 @@ margin-top: 15%
 }
 
 #done {
-    margin-left: 900px;
+    margin-left: 920px;
     margin-top: 250px;  
     font-size: 30px;
     font-weight: bold;
@@ -93,4 +93,20 @@ margin-top: 15%
     top:0;
     right:0;
     padding-right: 25px;
+}
+
+.btn-outline-secondary {
+    width: 120px;
+    height: 30px;
+    margin-left: 920px;
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+}
+
+.form-control { 
+    width: 250px;
+    height: 30px;
+    margin-left: 850px;
+    margin-bottom: 5px;
 }

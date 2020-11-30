@@ -1,0 +1,16 @@
+.high-scores {
+    margin-left: 40%;
+    margin-top: 250px;  
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-control{
+    margin-top: 20px;
+}
+
+#button-addon3 {
+margin-top: 20px;
+background-color: thistle;
+}
+

@@ -13,7 +13,7 @@ function populate () {
             guess("btn" + i, choices[i]);
 
         }
-    showProgress ();
+    // showProgress ();
    
 }
 
@@ -37,8 +37,12 @@ function guess (id, guess) {
 function showScores () {
     var gameOverHtml = "<h1 id = 'done'>All Done!</h1>";
     gameOverHtml +=  "<a href='highscore.html' id='highscore'>View Highscores </a>";
-    gameOverHtml += "<div id='time'> Time: <span>0</span></div>";
+    gameOverHtml += "<div id='time'> Time: <span>" + timeLeft + "</span></div>";
     gameOverHtml += "<h2 id = 'score'> Your final score:" + " " + timeLeft + "</h2>";
+    gameOverHtml += "<div class='input-group mb-3'>"; 
+    gameOverHtml += "<input type='text' class='form-control' placeholder='Enter Initials' aria-label='Enter Initials' aria-describedby='button-addon2'>";
+    gameOverHtml += "<div class='input-group-append'>";
+    gameOverHtml += "<button class='btn btn-outline-secondary' type='button' id='button-addon2'>Submit</button>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 

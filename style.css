@@ -3,7 +3,7 @@
     margin-left: 800px;
     font-weight: bolder;
 }
-#highScore {
+#highscore {
     position:absolute;
     top:0;
     left:0;
@@ -19,14 +19,28 @@
     padding-right: 25px;
 }
 
-p.text {
+.info-box {
     text-align: center;
+    margin-bottom: 30px;
     font-size: large;
     font-weight: bolder;
 }
 
-.button {
-    margin-left: 920px;
+#start {
+    margin-left: 900px;
     background-color: purple;
     color: white;
 }
+
+#start:hover {
+   cursor: pointer;
+    background-color: blue;
+}
+
+#time {
+    position:absolute;
+    top:0;
+    right:0;
+    padding-right: 25px;
+}
+

@@ -1,0 +1,96 @@
+#highscore {
+    position:absolute;
+    top:0;
+    left:0;
+    padding-left: 25px;
+    color: purple;
+    font-weight: bolder;
+}
+
+#timer {
+    position:absolute;
+    top:0;
+    right:0;
+    padding-right: 25px;
+}
+
+#time-left {
+    position:absolute;
+    top:0;
+    right:0;
+    padding-right: 25px;
+}
+
+#btn0 {
+width: 120px;
+height: 30px;
+background-color: purple;
+color: white;
+margin-left: 700px;
+margin-top: 20px;
+}
+
+#btn1 {
+    width: 120px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    margin-top: 40px;
+    }
+
+#btn2 {
+    width: 120px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    margin-top: 40px;
+        }
+
+#btn3 {
+    width: 120px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    margin-top: 40px;
+        }
+    
+#question {
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+margin-top: 15%
+}
+
+#alertText{
+    margin-left: 900px;  
+    font-size: 30px;
+    font-weight: bold; 
+    font-style: italic; 
+    }
+
+#progress {
+    margin-left: 900px;  
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+#score {    
+    margin-left: 850px;
+    margin-top: 30px;  
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+#done {
+    margin-left: 900px;
+    margin-top: 250px;  
+    font-size: 30px;
+    font-weight: bold;
+}
+#time {
+    position:absolute;
+    top:0;
+    right:0;
+    padding-right: 25px;
+}

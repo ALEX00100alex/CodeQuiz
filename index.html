@@ -11,14 +11,23 @@
 
 
 <body>
-    <div id="highScore"> View Highscores</div>
-<div id = "timer">Time: 0</div>
-    <p class="text"> Try to answer the following code-related questions within the time
-        limit. Keep in mind that incorrect answers will penalize your
-        score/time by ten seconds!
-    </p>
-    <button class="button">Start Quiz</button>
-    <script src="./script.js"></script>
+    <div class="container">
+        <div id="question"> </div>
+        <div id="results"></div>
+        <a href="highscore.html" id="highscore">View Highscores </a>
+        <div id="time"> Time: <span>0</span></div>
+        <div class="info-box"> Try to answer the following code-related questions within the time
+            limit. Keep in mind that incorrect answers will penalize your
+            score/time by ten seconds!
+        </div>
+        <a href="./questions.html" id="start">Start Button</a>
+
+        <!-- <script src="./script.js"></script>
+    <script src="./questionList.js"></script>
+    <script src="./quizcontrol.js"></script>
+    <script src="./questions.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    </div>
 </body>
 
 </html>

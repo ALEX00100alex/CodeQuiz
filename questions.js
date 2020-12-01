@@ -13,7 +13,6 @@ function populate () {
             guess("btn" + i, choices[i]);
 
         }
-    // showProgress ();
    
 }
 
@@ -27,13 +26,6 @@ function guess (id, guess) {
     }
 };
 
-// function showProgress () {
-//     var currentQuestionNumber = quiz.questionIndex + 1;
-//     var element = document.getElementById("progress");
-//     element.innerHTML = "Question" + " " + currentQuestionNumber + " " + "of" + " " + quiz.questions.length;
-
-// }
-
 function showScores () {
     var gameOverHtml = "<h1 id = 'done'>All Done!</h1>";
     gameOverHtml +=  "<a href='highscore.html' id='highscore'>View Highscores </a>";
@@ -45,6 +37,24 @@ function showScores () {
     gameOverHtml += "<button class='btn btn-outline-secondary' type='button' id='button-addon2'>Submit</button>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
+    
+    var initialInput = document.querySelector(".form-control");
+    var submitButton = document.querySelector(".btn-outline-secondary");
+    
+    submitButton.addEventListener("click", function(event) {
+    event.preventDefault();
+    
+    var user = { 
+        initials: initialInput.value.trim()
+    }
+
+    localStorage.setItem("user", JSON.stringify(user));
+
+    var userInitial = document.querySelector("#form.control");
+    var lastUser = JSON.parse(localStorage.getItem("user"));
+    userInitial.textcontent = lastUser.initials + timeLeft;
+});
+
 
 }
 

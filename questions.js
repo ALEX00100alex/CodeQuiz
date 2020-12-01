@@ -49,10 +49,8 @@ function showScores () {
     }
 
     localStorage.setItem("user", JSON.stringify(user));
+    
 
-    var userInitial = document.querySelector("#form.control");
-    var lastUser = JSON.parse(localStorage.getItem("user"));
-    userInitial.textcontent = lastUser.initials + timeLeft;
 });
 
 

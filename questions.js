@@ -45,11 +45,12 @@ function showScores () {
     event.preventDefault();
     
     var user = { 
-        initials: initialInput.value.trim()
+        initials: initialInput.value.trim(),
+        score: timeLeft
     }
 
     localStorage.setItem("user", JSON.stringify(user));
-    
+      
 
 });
 

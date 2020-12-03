@@ -21,7 +21,7 @@ When the "Start Quiz" button is clicked, the coding challenge begins:
 3. If the player gets a question correct, a "Correct!" message is displayed and they move onto the next question (no time is lost)
 3. When they reach the end of the quiz, it displays the player's final score (which is the time taken to complete the quiz, minus any time penalties)
 4. The player can then click on the "View Highscores" link, which will take them to a page which displays their score
-5. Play can then clear they score and return to the Start page
+5. Play can then clear their score and return to the Start page
 
 
 ## Screenshots 

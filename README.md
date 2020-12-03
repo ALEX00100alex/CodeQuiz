@@ -3,7 +3,7 @@ An interactive code quiz with multiple-choice questions and score tracking
 
 ## Background 
 
-This is my first attempt at building a multiple choice, incorporating the following elements:
+This is my first attempt at building a multiple choice quiz, incorporating the following elements:
 1. HTML
 2. CSS 
 3. Javascript 
